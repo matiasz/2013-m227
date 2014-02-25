@@ -1,0 +1,255 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thin Sectioned Essay
+% LaTeX Template
+% Version 1.0 (3/8/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original Author:
+% Nicolas Diaz (nsdiaz@uc.cl) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[12pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
+\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{graphicx} % Required for including pictures
+\usepackage{wrapfig} % Allows in-line images
+%\usepackage{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Required for accented characters
+%\linespread{1.05} % Change line spacing here, Palatino benefits from a slight increase by default
+%\usepackage{array}
+%\usepackage{booktabs}
+%\usepackage{latexsym}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage[pdftex]{hyperref}
+\usepackage{tipa}
+\usepackage{url}
+\usepackage{verbatim}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  citecolor=black,%
+  filecolor=black,%
+  linkcolor=black,%
+  urlcolor=black     % can put red here to visualize the links
+}
+%\usepackage{biblatex}
+
+\makeatletter
+%\renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
+\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
+
+\renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
+\begin{center} % Right align
+{\noindent\@title} % Increase the font size of the title
+
+\vspace{10pt} % Some vertical space between the title and author name
+
+{\noindent\@author}\\\@date
+
+\vspace{10pt} % Some vertical space between the author block and abstract
+\end{center}
+}
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+%\title{\LARGE{\textbf{Software Engineering Best Practices\\in Biomedical Informatics}\\[.5em]
+%}}
+%
+%\author{\large{Nicholas J. Matiasz}\vspace{.4em}}
+%
+%\date{\large{2013-10-31}} % Date
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	HEADER/FOOTER
+%----------------------------------------------------------------------------------------
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{BE M227 \textpipe\ Project \#{1}}
+\cfoot{\thepage\ of\ \pageref{LastPage}}
+\rfoot{Nicholas J. Matiasz}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\pagestyle{fancyplain}
+
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\Large University of California, Los Angeles}\\[1.5cm] % Name of your university/college
+\textsc{\large Medical Imaging Informatics Group}\\[0.5cm] % Major heading such as course name
+\textsc{\large BE M227 Project \#{1}}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+\vspace{20pt}
+\HRule \\[0.5cm]
+\LARGE{\textbf{Best Practices in Software Engineering}}\\[.3cm]
+\LARGE{\textbf{for Medical Informatics}}\\
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Nicholas J. Matiasz % Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Instructor:} \\
+Prof. Alex Bui % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[4cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+\begin{minipage}{0.4\textwidth}
+\begin{center} \large
+\emph{Submitted:} \\
+2013-10-31 % Supervisor's Name
+\end{center}
+\end{minipage}\\[4cm]
+%{\large Submitted: 2013-10-30}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+%----------------------------------------------------------------------------------------
+\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
+
+
+\fontsize{12}{27.95}%22.5, 28
+\selectfont
+%\thispagestyle{empty}
+%\tableofcontents
+
+\section{Introduction}
+
+Research in medical informatics requires skills from various fields, such as computer science, medicine, bioengineering, biostatistics, and public health.
+Given its interdisciplinary context, software development in medical informatics can differ significantly from that of other pursuits, such as software engineering research and commercial software development \cite{weber2013}.
+Vetted software engineering methods are essential when making medical software because of the importance of maintaining patient safety, as well as the massive scale on which some medical systems operate.
+The recent struggles with the new Obamacare website demonstrate the consequences of a poorly executed software development plan.
+This paper discusses the ways in which software development is constrained by the unique context of medical informatics research; best practices are then presented for software engineering that applies specifically to work in medical informatics.
+%------------------------------------------------
+
+\section{The complex context for medical software development}
+Software development in medical informatics occurs in a complex context, characterized by interdisciplinary collaboration and diverse stakeholder interests.
+As opposed to, for example, a single client hiring a software development firm, software development in medical informatics often involves multiple funding sources, end users, legal constraints, and governing bodies.
+It is difficult to discuss medical software development without acknowledging related factors that might normally fall outside of the scope of software engineering; the software development life-cycle (SDLC) must therefore address these challenges for the project to succeed \cite{song2007}.
+A tension arises when researchers attempt to make software that can be not only integrated seamlessly into their institution's existing infrastructure but also adapted easily to other clinical settings \cite{weber2013}.
+New medical software is valuable to the extent that it improves upon existing methods for delivering healthcare; however, even if new medical software proves helpful, its modification of healthcare delivery often results in multiple challenges, including resistance from physicians, IT restructuring, and legal barriers to its implementation.
+
+\subsection{System inertia in healthcare}
+To mitigate resistance to new technologies, a medical informatics software developer should not only deliver software that meets the needs of users but also design such software with the existing technological environment and clinical workflow in mind.
+For example, a developer who satisfies physicians with useful software but frustrates the IT staff responsible for deploying the software has failed to navigate the complex clinical environment successfully.
+This delicate balance that developers must maintain to ensure the adoption of their technology demonstrates how economic and political considerations are particularly relevant in medical informatics work.
+Coiera has suggested that stagnation in medical software systems commonly occurs due to a ``system inertia'' caused by the multitude of users, stakeholders, governing bodies, and laws in healthcare \cite{coiera2011}.
+Thus, in light of national efforts to achieve EHR standardization and infrastructure interoperability, it may be instructive, albeit optimistic, to view each medical software development project as a mere subprocess that advances the state of the art toward these national goals.
+Existing standards for the creation of medical software that treat such systems as stand-alone might therefore be myopic \cite{kuziemsky2013, larson2012}.
+
+
+%\section{Computational methods motivating software engineering skills}
+%As both the precision and amount of data resulting from scientific research increases, scientific research methods---including those of the ``wet'' sciences---rely increasingly on computers and computational methods. This trend has required many scientists with little to no training in computer science to develop their own software to interpret the data they collect \cite{altschul2013}.
+%------------------------------------------------
+
+\section{Recipe for effective software development methods}
+Although the details of a software development plan will vary widely depending on the requirements of the stakeholders and end users, the literature points to common strategies that will usually help a project to succeed. The following sections describe these strategies and explain their specific utility for work in medical informatics.
+
+\subsection{Flexible and evolving development processes}
+Perhaps the most significant trend in the development of medical software is the growing need for adaptable software engineering methods. 
+The complex context of these projects increases the probability that user requirements will change, administrative barriers will manifest, and technical challenges will arise unexpectedly.
+Arguing that health software and its development methods have become ``too complex, noisy, and potentially inconsistent for the existing deterministic approaches of software engineering'' \cite{clifton2012}, Clifton, et al. stress the need for flexible and evolving approaches that can accommodate chaos without derailing the entire development effort.
+These dynamics motivate the selection of software development methods with consistent end-user feedback, continuous integration of separate modules, and an avoidance of strictly sequential processes.
+Cunningham, et al. \cite{cunningham2012} discuss how their project benefitted from forgoing rigid software development methods, instead adopting an evolutionary approach with concepts borrowed from incremental process models.
+This project was still divided into traditional phases (e.g., requirements analysis, design, etc.), but the team's ability to update the development process regularly in response to user feedback was crucial to their success.
+
+
+\subsection{Security of patient data}
+Developers often prioritize software security during development, but it is particularly important for medical software due to both its high-stakes use cases and the privacy requirements for medical data.
+The Health Insurance Portability and Accountability Act (HIPAA) of 1996, despite undergoing revisions to limit its restrictions, enforces numerous security measures regarding patient data. Nosowsky and Giordano argue that these restrictions impede both clinical research and the medical innovations that such work is intended to produce \cite{nosowsky2006}. Developers are therefore challenged to make software that is sufficiently secure without being excessively limited in functionality. This charge is even more vital when a security breach could directly harm the patient \cite{jetley2013}. Regardless of which software development strategy is selected, a project's security requirements must be identified early and articulated clearly if the software is to receive legal authorization and widespread adoption.
+
+\subsection{Emphasis on user experience design}
+Like software security, user experience design (UX) plays a critical role in medical software's efficacy. 
+Of course, machines have not replaced physicians entirely; despite clinical decision support systems and new machine learning techniques, medical interpretation and diagnosis remain subjective endeavors. It follows that medical software is effective insofar as the physician maintains control over the clinical workflow \cite{weber2013}. For this reason, development strategies that allow for recurring user involvement and feedback may be optimal for software that relies heavily on user interaction \cite{lau2010} (e.g., data visualization tools). The user's ability to glean meaningful information from such interfaces will ultimately determine the success of the technology.
+
+\subsection{Scope of adoption}
+Medical informaticians who develop medical software tools and standards commonly seek widespread adoption of their technology.
+This goal is certainly valid because healthcare's vision of national interoperability depends largely on whether multiple institutions can agree to use the same tools.
+When designing new software for a specific end user, developers are presented with yet another tension: the software should be not only customized for the context of its initial deployment but also general enough to encourage adoption by additional users \cite{johannessen2009}.
+In some cases, software is developed in-house for specific use cases in a single institution.
+Such software will likely need to be modified as additional customers implement it.
+Especially for medical software, a flexible development process is more likely to accommodate the variety of technological and administrative challenges that a growing user base will present \cite{johannessen2009, porruvecchio2007}.
+
+%\subsection{Designed to enable evaluation}
+
+%\section{Best practices from successful software developers}
+%In \cite{altschul2013}, researchers who have successfully developed software used by bioinformaticists shared the practices that enabled their projects to succeed. Their input is summarized by the following list of guidelines:
+%\begin{itemize}
+%\item Design software such that it can interact easily with existing databases.
+%\item Share each iteration of the software to grow a user base and to invite feedback as the project evolves.
+%\item Design the software's data structures so as to maximize interoperability with existing standards and software.
+%\item Keep the software's code open source so that other researchers can tailor it to their needs.
+%\item Strive for simple graphical user interfaces (GUIs) to minimize the amount of training that is required to use the software.
+%\item Version the software throughout development.
+%\item Write formal unit tests to evaluate the software.
+%\item Consider the various forms of output that might be meaningful to end users, and allow for flexibility in the software's output.
+%\end{itemize}
+
+\section{Agile methods of software development}
+The medical informatics literature highlights the desirability of development strategies that evolve gracefully, incorporate end-user feedback, achieve continuous integration, and cater to the people who will use, deploy, and evaluate the software. A universal approach cannot exist, but all of these qualities are certainly found in agile software development methods. Agile methods are very people-centric in that they can adapt to the particular strengths of a team, as well as to the evolving understanding of the presented technological challenges \cite{cockburn2001}. As described above, software development in medical informatics occurs in a complex context, which does not always lend itself to traditional methods that strictly adhere to linear or sequential activities. By design, agile methods can accommodate shifting customer requirements, evolving perspectives on the problems to be solved, and the rapid pace of innovation---all of which are characteristic of the clinical environment. Adopting an agile philosophy on the level of individual projects may also facilitate the massive system integration efforts that lie ahead if national, or even international healthcare interoperability is to be achieved. For this long-term process to succeed, agile concepts such as frequent integration and customer collaboration must be incorporated into this arduous process.
+
+As with any software development strategy, agile methods have their limitations. Despite the advantages of agile methods' flexibility, there are many projects that simply cannot afford to deviate from a predefined plan. Software that is intended to control medical devices, for example, must be developed under specific guidelines in order to receive various certifications, such as IEC 62304 \cite{huhn2010}. It is reasonable to expect that agile methods might not be optimal for such cases. Therefore, the agile paradigm may be best suited to software development that occurs in a research setting, where the emphasis is on demonstrating a novel approach to a problem, as opposed to validating a technology for clinical use.
+
+
+\section{Conclusion}
+
+As might be expected, software development in medical informatics shares many guidelines with those of other domains; however, the complex, interdisciplinary context of this discipline invites extra emphasis on key aspects of the SDLC. 
+The presence of multiple stakeholders, restrictive legislation, and the evolving state of medical knowledge and standards all influence medical software development and thus motivate its use of highly iterative development methods. Perhaps the most significant challenge when selecting a software development method is achieving a balance between agile methods that accommodate chaotic environments and systematic, sequential methods that yield secure, certifiable systems. A general prescription for this kind of software development may be impossible, but the literature certainly points to trends that new projects should acknowledge when designing a SDLC. It seems particularly fitting that agile methods---characterized by their emphasis on the needs and skills of individuals---should be favored by developers in healthcare, a field with a similar focus.
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\bibliographystyle{plain}
+\bibliography{m227_project_1}
+%----------------------------------------------------------------------------------------
+
+\end{document}

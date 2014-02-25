@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{miliard2013}
+Docs blame ehrs for lost productivity.
+\newblock
+  \url{http://www.healthcareitnews.com/news/docs-blame-ehrs-lost-productivity}.
+\newblock Accessed: 2013-12-03.
+
+\bibitem{alpaydin2010}
+Ethem Alpaydin.
+\newblock {\em Introduction to machine learning}.
+\newblock MIT press, 2010.
+
+\bibitem{angluin1987}
+Dana Angluin.
+\newblock Learning regular sets from queries and counterexamples.
+\newblock {\em Information and computation}, 75(2):87--106, 1987.
+
+\bibitem{bradley1997}
+Andrew~P Bradley.
+\newblock The use of the area under the roc curve in the evaluation of machine
+  learning algorithms.
+\newblock {\em Pattern recognition}, 30(7):1145--1159, 1997.
+
+\bibitem{brown2012}
+Eli~T Brown, Jingjing Liu, Carla~E Brodley, and Remco Chang.
+\newblock Dis-function: Learning distance functions interactively.
+\newblock In {\em Visual Analytics Science and Technology (VAST), 2012 IEEE
+  Conference on}, pages 83--92. IEEE, 2012.
+
+\bibitem{caruana2006}
+Rich Caruana and Alexandru Niculescu-Mizil.
+\newblock An empirical comparison of supervised learning algorithms.
+\newblock In {\em Proceedings of the 23rd international conference on Machine
+  learning}, pages 161--168. ACM, 2006.
+
+\bibitem{counsell1997}
+Carl Counsell.
+\newblock Formulating questions and locating primary studies for inclusion in
+  systematic reviews.
+\newblock {\em Annals of Internal Medicine}, 127(5):380--387, 1997.
+
+\bibitem{guo2008}
+Xinjian Guo, Yilong Yin, Cailing Dong, Gongping Yang, and Guangtong Zhou.
+\newblock On the class imbalance problem.
+\newblock In {\em Natural Computation, 2008. ICNC'08. Fourth International
+  Conference on}, volume~4, pages 192--201. IEEE, 2008.
+
+\bibitem{he2009}
+Haibo He and Edwardo~A Garcia.
+\newblock Learning from imbalanced data.
+\newblock {\em Knowledge and Data Engineering, IEEE Transactions on},
+  21(9):1263--1284, 2009.
+
+\bibitem{japkowicz2000}
+Nathalie Japkowicz et~al.
+\newblock Learning from imbalanced data sets: a comparison of various
+  strategies.
+\newblock In {\em AAAI workshop on learning from imbalanced data sets},
+  volume~68, 2000.
+
+\bibitem{liu2011}
+Jingjing Liu, Eli~T Brown, and Remco Chang.
+\newblock Find distance function, hide model inference.
+\newblock In {\em Visual Analytics Science and Technology (VAST), 2011 IEEE
+  Conference on}, pages 289--290. IEEE, 2011.
+
+\bibitem{settles2009}
+Burr Settles.
+\newblock Active learning literature survey.
+\newblock Computer Sciences Technical Report 1648, University of
+  Wisconsin--Madison, 2009.
+
+\bibitem{wallace2012}
+Byron~C Wallace and Carla~E Brodley~(Adviser).
+\newblock {\em Machine learning in health informatics: making better use of
+  domain experts}.
+\newblock PhD thesis, Tufts University, 2012.
+
+\bibitem{wolpert1995}
+D.~H. Wolpert.
+\newblock {\em The Mathematics of Generalization}.
+\newblock 1995.
+
+\end{thebibliography}

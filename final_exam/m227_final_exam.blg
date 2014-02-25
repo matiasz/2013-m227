@@ -1,0 +1,10 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: m227_final_exam.aux
+The style file: plain.bst
+Database file #1: m227_final_exam.bib
+Repeated entry---line 98 of file m227_final_exam.bib
+ : @inproceedings{wiederhold1993
+ :                              ,
+I'm skipping whatever remains of this entry
+Warning--can't use both volume and number fields in stoica2001
+Warning--can't use both volume and number fields in wiederhold1993
+(There was 1 error message)

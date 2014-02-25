@@ -1,0 +1,135 @@
+\begin{thebibliography}{10}
+
+\bibitem{anderson2012}
+Nicholas Anderson, Aaron Abend, Aaron Mandel, Estella Geraghty, Davera Gabriel,
+  Rob Wynden, Michael Kamerick, Kent Anderson, Julie Rainwater, and Peter
+  Tarczy-Hornoch.
+\newblock Implementation of a deidentified federated data network for
+  population-based cohort discovery.
+\newblock {\em Journal of the American Medical Informatics Association},
+  19(e1):e60--e67, 2012.
+
+\bibitem{barrows1996}
+Randolph~C Barrows and Paul~D Clayton.
+\newblock Privacy, confidentiality, and electronic medical records.
+\newblock {\em Journal of the American Medical Informatics Association},
+  3(2):139--148, 1996.
+
+\bibitem{blobel2009}
+Bernd Blobel and Peter Pharow.
+\newblock Analysis and evaluation of ehr approaches.
+\newblock {\em Methods of information in medicine}, 48(2):162, 2009.
+
+\bibitem{bui_morioka2010}
+Alex~A.T. Bui and Craig Morioka.
+\newblock Information systems \& architectures.
+\newblock In Alex~A.T. Bui and Ricky~K. Taira, editors, {\em Medical Imaging
+  Informatics}, pages 93--137. Springer US, 2010.
+
+\bibitem{bui_taira2010}
+Alex~AT Bui and Ricky~K Taira.
+\newblock {\em Medical imaging informatics}.
+\newblock Springer, 2010.
+
+\bibitem{clarke2001}
+Ian Clarke, Oskar Sandberg, Brandon Wiley, and Theodore~W Hong.
+\newblock Freenet: A distributed anonymous information storage and retrieval
+  system.
+\newblock In {\em Designing Privacy Enhancing Technologies}, pages 46--66.
+  Springer, 2001.
+
+\bibitem{decker2000}
+Stefan Decker, Sergey Melnik, Frank Van~Harmelen, Dieter Fensel, Michel Klein,
+  Jeen Broekstra, Michael Erdmann, and Ian Horrocks.
+\newblock The semantic web: The roles of xml and rdf.
+\newblock {\em Internet Computing, IEEE}, 4(5):63--73, 2000.
+
+\bibitem{dolin2006}
+Robert~H Dolin, Liora Alschuler, Sandy Boyer, Calvin Beebe, Fred~M Behlen,
+  Paul~V Biron, and Amnon~Shabo Shvo.
+\newblock Hl7 clinical document architecture, release 2.
+\newblock {\em Journal of the American Medical Informatics Association},
+  13(1):30--39, 2006.
+
+\bibitem{foster2003}
+Ian Foster and Adriana Iamnitchi.
+\newblock On death, taxes, and the convergence of peer-to-peer and grid
+  computing.
+\newblock In {\em Peer-to-Peer Systems II}, pages 118--128. Springer, 2003.
+
+\bibitem{foster1999}
+Ian Foster and Carl Kesselman.
+\newblock The globus project: A status report.
+\newblock {\em Future Generation Computer Systems}, 15(5):607--621, 1999.
+
+\bibitem{kawamoto2007}
+Kensaku Kawamoto and David~F Lobach.
+\newblock Proposal for fulfilling strategic objectives of the us roadmap for
+  national action on decision support through a service-oriented architecture
+  leveraging hl7 services.
+\newblock {\em Journal of the American Medical Informatics Association},
+  14(2):146--155, 2007.
+
+\bibitem{mcmurry2007}
+Andrew~J McMurry, Clint~A Gilbert, Ben~Y Reis, Henry~C Chueh, Isaac~S Kohane,
+  and Kenneth~D Mandl.
+\newblock A self-scaling, distributed information architecture for public
+  health, research, and clinical care.
+\newblock {\em Journal of the American Medical Informatics Association},
+  14(4):527--533, 2007.
+
+\bibitem{murphy2011}
+Shawn~N Murphy, Vivian Gainer, Michael Mendis, Susanne Churchill, and Isaac
+  Kohane.
+\newblock Strategies for maintaining patient privacy in i2b2.
+\newblock {\em Journal of the American Medical Informatics Association},
+  18(Suppl 1):i103--i108, 2011.
+
+\bibitem{oster2008}
+Scott Oster, Stephen Langella, Shannon Hastings, David Ervin, Ravi Madduri,
+  Joshua Phillips, Tahsin Kurc, Frank Siebenlist, Peter Covitz, Krishnakant
+  Shanbhag, et~al.
+\newblock cagrid 1.0: an enterprise grid infrastructure for biomedical
+  research.
+\newblock {\em Journal of the American Medical Informatics Association},
+  15(2):138--149, 2008.
+
+\bibitem{ratnasamy2002}
+Sylvia Ratnasamy, Ion Stoica, and Scott Shenker.
+\newblock Routing algorithms for dhts: Some open questions.
+\newblock In {\em Peer-to-Peer Systems}, pages 45--52. Springer, 2002.
+
+\bibitem{shortliffe1998}
+Edward~H Shortliffe.
+\newblock Health care and the next generation internet.
+\newblock {\em Annals of internal medicine}, 129(2):138--140, 1998.
+
+\bibitem{stead2005}
+William~W Stead, Brian~J Kelly, and Robert~M Kolodner.
+\newblock Achievable steps toward building a national health information
+  infrastructure in the united states.
+\newblock {\em Journal of the American Medical Informatics Association},
+  12(2):113--120, 2005.
+
+\bibitem{stoica2001}
+Ion Stoica, Robert Morris, David Karger, M~Frans Kaashoek, and Hari
+  Balakrishnan.
+\newblock Chord: A scalable peer-to-peer lookup service for internet
+  applications.
+\newblock In {\em ACM SIGCOMM Computer Communication Review}, volume~31, pages
+  149--160. ACM, 2001.
+
+\bibitem{weber2009}
+Griffin~M Weber, Shawn~N Murphy, Andrew~J McMurry, Douglas MacFadden, Daniel~J
+  Nigrin, Susanne Churchill, and Isaac~S Kohane.
+\newblock The shared health research information network (shrine): a prototype
+  federated query tool for clinical data repositories.
+\newblock {\em Journal of the American Medical Informatics Association},
+  16(5):624--630, 2009.
+
+\bibitem{wiederhold1993}
+Gio Wiederhold.
+\newblock Intelligent integration of information.
+\newblock In {\em ACM SIGMOD Record}, volume~22, pages 434--437. ACM, 1993.
+
+\end{thebibliography}

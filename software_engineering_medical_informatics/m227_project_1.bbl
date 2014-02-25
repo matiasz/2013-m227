@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+
+\bibitem{clifton2012}
+David~A Clifton, Jeremy Gibbons, Jim Davies, and Lionel Tarassenko.
+\newblock Machine learning and software engineering in health informatics.
+\newblock In {\em Realizing Artificial Intelligence Synergies in Software
+  Engineering (RAISE), 2012 First International Workshop on}, pages 37--41.
+  IEEE, 2012.
+
+\bibitem{cockburn2001}
+Alistair Cockburn and Jim Highsmith.
+\newblock Agile software development, the people factor.
+\newblock {\em Computer}, 34(11):131--133, 2001.
+
+\bibitem{coiera2011}
+Enrico Coiera.
+\newblock Why system inertia makes health reform so difficult.
+\newblock {\em BMJ}, 342, 6 2011.
+
+\bibitem{cunningham2012}
+Alex~P Cunningham, Antonis~C Antoniou, and Douglas~F Easton.
+\newblock Clinical software development for the web: lessons learned from the
+  boadicea project.
+\newblock {\em BMC medical informatics and decision making}, 12(1):30, 2012.
+
+\bibitem{huhn2010}
+Michaela Huhn and Axel Zechner.
+\newblock Arguing for software quality in an iec 62304 compliant development
+  process.
+\newblock In {\em Leveraging Applications of Formal Methods, Verification, and
+  Validation}, pages 296--311. Springer, 2010.
+
+\bibitem{jetley2013}
+Raoul Jetley, Sithu Sudarsan, R~Sampath, and Srini Ramaswamy.
+\newblock Medical software--issues and best practices.
+\newblock In {\em Distributed Computing and Internet Technology}, pages 69--91.
+  Springer, 2013.
+
+\bibitem{johannessen2009}
+Liv~Karen Johannessen and Gunnar Ellingsen.
+\newblock Integration and generification---agile software development in the
+  healthcare market.
+\newblock {\em Computer Supported Cooperative Work (CSCW)}, 18(5-6):607--634,
+  2009.
+
+\bibitem{kuziemsky2013}
+Craig~E Kuziemsky and John Knight.
+\newblock 5th international workshop on software engineering in health care
+  (sehc 2013).
+\newblock In {\em Proceedings of the 2013 International Conference on Software
+  Engineering}, pages 1549--1550. IEEE Press, 2013.
+
+\bibitem{larson2012}
+B.~Larson, J.~Hatcliff, S.~Procter, and P.~Chalin.
+\newblock Requirements specification for apps in medical application platforms.
+\newblock In {\em Software Engineering in Health Care (SEHC), 2012 4th
+  International Workshop on}, pages 26--32, 2012.
+
+\bibitem{lau2010}
+Francis Lau, Craig Kuziemsky, Morgan Price, and Jesse Gardner.
+\newblock A review on systematic reviews of health information system studies.
+\newblock {\em Journal of the American Medical Informatics Association},
+  17(6):637--645, 2010.
+
+\bibitem{nosowsky2006}
+Rachel Nosowsky and Thomas~J Giordano.
+\newblock The health insurance portability and accountability act of 1996
+  (hipaa) privacy rule: implications for clinical research.
+\newblock {\em Annu. Rev. Med.}, 57:575--590, 2006.
+
+\bibitem{porruvecchio2007}
+Guido Porruvecchio, Giulio Concas, Daniele Palmas, and Roberta Quaresima.
+\newblock An agile approach for integration of an open source health
+  information system.
+\newblock In {\em Agile Processes in Software Engineering and Extreme
+  Programming}, pages 213--218. Springer, 2007.
+
+\bibitem{song2007}
+Xiping Song, Beatrice Hwong, Gilberto Matos, and Arnold Rudorfer.
+\newblock Understanding and classifying requirements for computer-aided
+  healthcare workflows.
+\newblock In {\em Computer Software and Applications Conference, 2007. COMPSAC
+  2007. 31st Annual International}, volume~1, pages 137--144. IEEE, 2007.
+
+\bibitem{weber2013}
+Jens~H Weber-Jahnke, Morgan Price, and James Williams.
+\newblock Software engineering in health care: Is it really different? and how
+  to gain impact.
+\newblock In {\em Software Engineering in Health Care (SEHC), 2013 5th
+  International Workshop on}, pages 1--4. IEEE, 2013.
+
+\end{thebibliography}
